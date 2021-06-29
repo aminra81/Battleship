@@ -1,0 +1,10 @@
+{
+  "ID": {
+    "idNum": 6
+  },
+  "username": "c",
+  "password": "c",
+  "numberOfWins": 0,
+  "numberOfLoses": 1,
+  "playerStatus": "OFFLINE"
+}

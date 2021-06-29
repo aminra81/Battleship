@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="540.0" prefWidth="720.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.aminra.view.gamePage.LiveFXController">
+    <children>
+        <Label fx:id="turnLabel" alignment="CENTER" layoutX="149.0" layoutY="33.0" prefHeight="40.0" prefWidth="422.0" textFill="#eb0808">
+            <font>
+                <Font name="System Bold Italic" size="20.0" />
+            </font>
+        </Label>
+        <Label fx:id="secondPlayerNameLabel" alignment="CENTER" layoutX="382.0" layoutY="407.0" prefHeight="24.0" prefWidth="300.0">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+        <Label fx:id="firstPlayerNameLabel" alignment="CENTER" layoutX="31.0" layoutY="407.0" prefHeight="24.0" prefWidth="300.0">
+            <font>
+                <Font name="System Bold Italic" size="15.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

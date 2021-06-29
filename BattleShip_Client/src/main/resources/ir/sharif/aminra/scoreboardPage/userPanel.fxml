@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="100.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ir.sharif.aminra.view.scoreboardPage.UserPanelFXController">
+   <effect>
+      <InnerShadow />
+   </effect>
+   <children>
+      <Label fx:id="usernameLabel" layoutX="22.0" layoutY="14.0" prefHeight="39.0" prefWidth="143.0">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="scoreLabel" layoutX="22.0" layoutY="50.0" prefHeight="39.0" prefWidth="143.0" textFill="#130ce8">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+      <Label fx:id="stateLabel" alignment="CENTER_RIGHT" layoutX="211.0" layoutY="50.0" prefHeight="39.0" prefWidth="143.0" textFill="#ee0404">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
